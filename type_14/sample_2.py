@@ -7,3 +7,14 @@ while a != 0:
         cnt += 1
     a //= 25
 print(cnt)
+
+
+a = ...
+cnt = 0
+
+while a != 0:
+    digit = a % 49
+    if digit > 9:
+        cnt += 1
+    a //= 49
+print(cnt)
