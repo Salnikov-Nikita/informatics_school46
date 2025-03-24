@@ -37,6 +37,6 @@ for n in range(3, 10000):
         print(n, f(n, 3), g(f(n, 3)))
         break
 
-print(int('1200', 4))
+
 # print(f(10, 2), f(25, 8), f(255, 16))
 # print(bin(10)[2:], oct(25)[2:], hex(255)[2:])
